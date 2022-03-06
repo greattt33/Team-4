@@ -1,0 +1,116 @@
+.feature{
+    width:100%;
+    height:auto;
+    color:#21252E;
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+}
+.feature-body{
+    width:100%;
+    height:90%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+}
+.feature-body-image>img{
+    width:80%;
+    height:80%;
+    z-index:2;
+    position:absolute;
+    top:10%;
+    transform:rotateY(10deg);
+}
+.feature-head{
+    width:100%;
+    height: 100px;
+    margin-top:50px;
+    display:grid;
+    place-items:center;
+    position: relative;
+    text-align:center;
+}
+.rhombus{
+    width:50px;
+    height:50px;
+    border:10px solid #c2c6ce;
+    z-index:1;
+    transform: rotate(45deg);
+    position:relative;
+}
+.feature-head>h2{
+    font-size:34px;
+    font-weight:bold;
+    z-index:2;
+    letter-spacing: 5px;
+    position:absolute;
+}
+.feature-body-image{
+    width:50%;
+    height:700px;
+    display:grid;
+    place-items:center;
+    position:relative;
+}
+.f-circle{
+    width:60%;
+    height:60%;
+    z-index:1;
+    border:30px solid #FA573A;
+    border-radius:50%;
+}
+.feature-body-text{
+    width:calc(50%-20px);
+    height:90%;
+    display:flex;
+    text-align:left;
+    flex-direction:column;
+    justify-content:center;
+    align-items:space-around;
+}
+.feature-body-text>p:nth-child(3){
+    word-wrap:break-word;
+    width:400px;
+    font-size:15px;
+}
+.feature-body-text>p:nth-child(1){
+    font-size: 30px;
+    font-weight:bolder;
+    margin:0px;
+}
+.feature-body-text>p:nth-child(2){
+    font-size:large;
+    font-weight:bold;
+    color:#FA573A;
+    margin:0px;
+}
+.app-feature{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    height:auto;
+    gap:20px;
+    align-items:space-around;
+}
+.f-icons{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background-color:#FA573A;
+}
+.app-feature>p{
+    font-size:medium;
+    font-weight: bold;
+}
+.f-icons>img{
+    width:40px;
+    height:40px;
+}
+.app-features{
+    display:flex;
+    width: 100%;
+    align-items:left;
+    flex-direction: column;
+    gap:20px;
+}

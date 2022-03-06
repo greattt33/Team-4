@@ -6,6 +6,7 @@ import {buttonStyle} from "./Button.js"
 const Header=()=>{
     return(
         <div className="header">
+           <div className="dot" ></div>
            <div className="header-logo">
               <p>Apkly</p>
            </div>
