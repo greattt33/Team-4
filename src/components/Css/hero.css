@@ -35,6 +35,13 @@
     font-size:28px;
     background-color:rgb(250, 87, 58);
 }
+.header-logo-colorless{
+    height:100%;
+    width:100px;
+    margin-right: 200px;
+    font-size:28px;
+    background-color:#21252E;
+}
 .hero-body-text>button{
     color:white;
     font-size:medium;

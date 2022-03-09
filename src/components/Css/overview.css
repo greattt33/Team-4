@@ -37,8 +37,10 @@
     place-items:center;
 }
 .o-image>img{
-   width: 70%;
-   height:70%;
+   width: 50px;
+   height:50px;
+   border-radius:50%;
+   background-color: #FA573A;
    color:#FA573A;
 }
 .o-text{
@@ -80,6 +82,7 @@
     width:80%;
     height:400px;
     overflow:scroll;
+    scroll-behavior: smooth;
     gap:30px;
 }
 .overview-body::-webkit-scrollbar{

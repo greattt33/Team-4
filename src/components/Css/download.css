@@ -5,8 +5,9 @@
     flex-direction:column;
     justify-content:center;
     align-items:space-around;
-    background-color:whitesmoke;
+    background-color:white;
     color:#21252E;
+    padding-bottom:20px;
 }
 .download-head{
     width:100%;
@@ -62,6 +63,10 @@ text-align:left;
     text-align:left;
     color:#fa573a;
 }
+.download-circle>img{
+    width:30px;
+    height:30px;
+}
 .download-body-text>p:nth-child(1){
     font-size:15px;
     text-align:left;
@@ -108,6 +113,10 @@ text-align:left;
     border:2px solid #fa573a;
     background-color:none;
     color:#fa573a;
+}
+.download-circle{
+    display:grid;
+    place-items:center;
 }
 .download-circle:nth-child(1){
     width:50px;
@@ -172,8 +181,8 @@ text-align:left;
     color:rgb(223, 85, 108);
 }
 .box-2b>.download-circle{
-    width:50px;
-    height:50px;
+    width:60px;
+    height:60px;
     background-color:rgb(223, 85, 108);
     border-radius: 50%;
 }

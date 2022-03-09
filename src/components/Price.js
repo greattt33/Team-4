@@ -2,6 +2,8 @@ import React from "react"
 import Download from "./Download.js"
 import PriceCard from "./PriceCard.js"
 import "./Css/price.css"
+import Blog from "./Blog"
+import Solution from "./solute" 
 
 const Price =()=>{
     return(
@@ -17,7 +19,9 @@ const Price =()=>{
                     <PriceCard title="Advance" price="$35/month" cardContent1="150GB storage space" cardContent2="Limited Support" cardContent3="Fastest Load Speed"/>
                     
                 </div>
+                <Solution/>
                 <Download/>
+                <Blog/>
             </div>
         </div>
     )

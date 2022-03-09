@@ -5,8 +5,10 @@ import Price from "./components/Price"
 import "./App.css"
 import Overview from "./components/overview.js"
 import Features from "./components/features"
+import Footer from "./components/footer"
 
 const App=()=>{
+   
     return(
         <div className="App">
             <Header/>
@@ -14,6 +16,7 @@ const App=()=>{
             <Overview/>
             <Features/>
             <Price/>
+            <Footer/>
         </div>
     )
 }

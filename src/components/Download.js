@@ -2,6 +2,10 @@ import React from "react"
 import Button from "./Button"
 import {buttonStyle} from "./Button"
 import "./Css/download.css"
+import android from './images/android.png'
+import apple from './images/apple.png'
+import window from './images/window.png'
+import others from './images/others.png'
 
 const Download = ()=>{
   return (
@@ -25,13 +29,13 @@ const Download = ()=>{
               <div className="download-body-boxes">
                   <div className="box-column-1">
                       <div className="box-1a">
-                          <div className="download-circle"></div>
+                          <div className="download-circle"><img src={android} alt="android"/></div>
                           <h3>ANDROID</h3>
                           <p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                           <Button style={buttonStyle}content="Download"/>
                       </div>
                       <div className="box-1b">
-                          <div className="download-circle"></div>
+                          <div className="download-circle"><img src={apple} alt="android"/></div>
                           <h3>APPLE</h3>
                           <p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                           <Button style={buttonStyle}content="Download"/>
@@ -39,13 +43,13 @@ const Download = ()=>{
                   </div>
                   <div className="box-column-2">
                       <div className="box-2a">
-                          <div className="download-circle"></div>
+                          <div className="download-circle"><img src={window} alt="android"/></div>
                           <h3>WINDOW</h3>
                           <p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                           <Button style={buttonStyle}content="Download"/>
                       </div>
                       <div className="box-2b">
-                          <div className="download-circle"></div>
+                          <div className="download-circle"><img src={others} alt="android"/></div>
                           <h3>OTHERS</h3>
                           <p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                           <Button style={buttonStyle}content="Download"/>

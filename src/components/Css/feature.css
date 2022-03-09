@@ -97,6 +97,8 @@
     width:50px;
     height:50px;
     border-radius:50%;
+    display:grid;
+    place-items:center;
     background-color:#FA573A;
 }
 .app-feature>p{
@@ -104,8 +106,8 @@
     font-weight: bold;
 }
 .f-icons>img{
-    width:40px;
-    height:40px;
+    width:30px;
+    height:30px;
 }
 .app-features{
     display:flex;

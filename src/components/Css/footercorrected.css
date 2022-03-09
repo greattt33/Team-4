@@ -1,0 +1,347 @@
+.apklyshotbkg{
+  height: 600px;
+  width: 100%;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+}
+
+.shot{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.screensht{
+  height: 200px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.multiimage{
+  height:  450px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.contcomment{
+  height: 600px;
+  width: 100%;
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.commentfooter{
+  height: 100px;
+  width: 100%;
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footerOverall{
+  width:100%;
+  display:flex;
+  height:auto;
+  flex-direction:column;
+}
+::placeholder{
+  color: #21252E;
+  height: 30px;
+  width: 80%;
+  font-weight: bolder;
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+  opacity: 1;
+  
+}
+
+
+input::placeholder{
+  color:grey ;
+  font-size: medium;
+  height: 45px;
+  background-color: #21252E;
+  margin-top: -10px;
+  
+  
+
+} 
+.dicomma{
+  height: 200px;
+  width: 100%;
+  display: flex;
+  background-color:#FAFAFA;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.comma{
+  height: 150px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.threeimg{
+  height: 150px;
+  width: 30%;
+}
+
+.apklyfooter{
+  height: 450px;
+  width: 100%;
+  background-color: #21252E;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.contapkly{
+  height: 60px; 
+  width: 100%;
+
+  background-color: #21252E;
+  color: white;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  justify-items: center;
+}
+.inputplaceholder{
+  /* height: 200px; */
+  width: 100%;
+  height:30px;
+  border:3px solid #fa573a;
+  background-color: #21252E;
+  position:relative;
+  z-index:1;
+  border-radius: 12px;
+}
+
+.innerfooter{
+  /* height: 80px; */
+  width: 100%;
+  background-color: #FA573A;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+}
+
+.btn{
+  background-color: #FA573A;
+  color: white;
+  font-size: medium;
+  text-align: center;
+  width: 110px;
+  height: 35px;
+  position:absolute;
+  border: none;
+  border-radius:100px;
+  z-index:2;
+  right:-15px; 
+  border-radius: 30px; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  bottom: -8px;
+}
+.send{
+  height: 30px;
+  background-color: #FA573A;
+  
+  
+}
+.contpholder{
+  height: 30px;
+  width: 40%;
+  align-self: flex-end;
+  display:grid;
+  position: relative;
+  place-items: center;
+}
+.contapklydetail{
+  height: 200px;
+  width: 100%;
+  background-color: #21252E;
+  color: white;
+  display: flex;
+  flex-direction:row;
+  justify-content:space-around;
+  text-align:left;
+  margin-top: 50px;
+}
+
+.contabt{
+  height: 150px;
+  width: 15%;
+  background-color: #21252E;
+  color: white;
+  font-size: 15px;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  position:relative;
+}
+.hr-line-about-us{
+  position: absolute;
+  top:40px;
+  width: 25px;
+  left:0px;
+  border: 1px solid #fa573a;
+}
+.hr-line-our-menu{
+  position: absolute;
+  top:40px;
+  width: 25px;
+  left:0px;
+  border: 1px solid #fa573a;
+}
+.hr-line-other-features{
+  position: absolute;
+  top:40px;
+  width: 25px;
+  left:0px;
+  border: 1px solid #fa573a;
+}
+.hr-line-follow-us{
+  position: absolute;
+  top:40px;
+  width: 25px;
+  left:0px;
+  border: 1px solid #fa573a;
+}
+a{
+  color: white;
+  text-emphasis-color: whit;
+  background-color: transparent;
+  text-decoration: none;
+}
+.contour{
+  height: 150px;
+  width: 20%;
+  background-color: #21252E;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  position: relative;
+}
+
+.contfollow{
+  height: 150px;
+  width: 20%;
+  background-color: #21252E;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.contothers{
+  height: 150px;
+  width: 20%;
+  background-color: #21252E;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.apklyend{
+  height: 65px;
+  width: 100%;
+  background-color: #FA573A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+}
+
+
+/* 
+.cardholder{
+  height :100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: whitesmoke;
+}
+
+.Card{
+  width: 500px;
+  height: 100px;
+  background-color: rgb(196, 189, 189);
+  border-radius: 8px;
+  display: flex;
+  align-items:center;
+  font-size: large;
+  font-weight: bold;
+  justify-content: space-around;
+  margin: 15px;
+}
+
+.lsetf-img{
+  height: 80px;
+  width: 80px;
+  border-radius: 5px;
+}
+
+.btn{
+  height: 50px;
+  width: 90px;
+  background-color: green;
+  color: pink;
+  border-radius: 5%;
+  border: none;
+}
+
+.btn:hover{
+  background-color: black;
+  color: red;
+  cursor: pointer;
+  border: none;
+}
+
+.input{
+  width: 1000px;
+  height: 500px;
+  background-color: blue;
+  display: flex;
+  border: none;
+  border-radius: 15px;
+  font-size: 28px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  cursor: text
+}
+
+.post{
+  width: 120px;
+  height: 80;
+  border: none;
+  border-radius: 20px;
+  font-size: 30px;
+  background-color: white;
+  color: brown;
+  cursor: pointer;
+}
+.pholder{
+  height: 300px;
+  width: 400px;
+  background-color: aquamarine;
+}
+
+
+ */
